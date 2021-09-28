@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwitter</title>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css">
+    
+</head>
+<body style="height:100%;font-family: 'Raleway', sans-serif; padding-left: 20%; padding-right: 20%;background-image: linear-gradient(to top left, rgb(0, 0, 100), rgb(0,0,50)); background-repeat: no-repeat; background-size: 100%; color: white;" onload="load_name()">
+    <br>
+        <center>
+            <h1 style="color: white;">Kwitter
+                <sup>
+                    <img src="https://shravaripatil.github.io/kwitter/m2.png" height="75" width="75" alt="">
+                </sup>
+            </h1>
+            <button id="sign_out" class="btn btn-danger" style="float: right;" onclick="sign_out()">Sign Out</button>
+            <br>
+            <div class="top bg-primary" style="padding:50px;">
+                <h3 style="color: white;" id="welcome"><b>Welcome, %User Name%</b></h3>
+            </div>
+            <div class="trending-div bg-dark" width="40%" style="padding-left: 100px; padding-right:100px; padding: 50px;">
+                <h3>Add A room</h3>
+                <br>
+                <input type="text" class="form-control bg-dark" id="room" placeholder="#Add a room" style="color:white;">
+                <button id="addRoom" class="btn btn-outline-success" onclick="add_room()">Add Room</button>
+                <br>
+                <hr>
+                <br>
+                <h3 style="color: white">Trending Rooms:</h3>
+                <br>
+                <p>#Astronomy</p>
+                <p>#Coding</p>
+                <p>#Writing</p>
+                <p>#Gaming</p>
+                <div class="trending"></div>
+            </div>
+        </center>
+        <br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <br><br>
+    </center>
+    <br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            
+            <script src="bootstrap.bundle.js"></script>
+            <script src="kwitter.js"></script>
+
+    
+    
+</body>
+</html>
